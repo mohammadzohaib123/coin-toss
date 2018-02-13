@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="bootstrap_file/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="main">
+                    <h1>Coin Toss</h1>
+                    <div id="image_div">
+                        <button id="btnhead" onclick="sethead();">
+                            <img src="head_coin.jpg" alt="head" id="headcoin" />
+                        </button>
+                        <button id="btntail" onclick="settail();">
+                            <img src="tail_coin.jpg" alt="tail" id="tailcoin" />
+                        </button>
+                    </div>
+                    <div id="button_div">
+                        <button id="toss" onclick="start_toss();">TOSS</button>
+                        <button id="cancel" onclick="cancel_toss();">CANCEL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap_file/js/bootstrap.min.js"></script>
+</body>
+
+</html>

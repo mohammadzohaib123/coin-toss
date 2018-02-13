@@ -1,0 +1,92 @@
+body
+{
+    background: rgb(229, 234, 157);
+}
+#main
+{
+    width: 300px;
+    height: 100px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+   
+    background: rgb(62, 10, 113);
+    
+}
+h1
+{
+    margin: -50px auto;
+    padding: 20px;
+    color: black
+}
+#button_div
+{
+    width: 300px;
+    height: 100px;
+    margin: -25px auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background: rgb(62, 10, 113); 
+}
+#btnhead
+{
+    background: transparent;
+    border: none;
+     
+    margin-left: -22px;
+}
+#btntail
+{
+    background: transparent;
+    border: none;
+    
+}
+#image_div
+{
+    margin: 100px auto;
+    cursor: pointer;  
+}
+#toss
+{
+    background: rgb(163, 126, 55);
+    text-shadow: 0px 1px 1px #8a1e54;
+    width: 115px;
+    height: 30px;
+    color: #444444;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 10, 9);
+    margin: 30px 10px 0px -45px;
+    cursor: pointer;
+}
+#toss:hover
+{
+    background-color: #eb5fdf
+}
+#toss:active
+{
+    background-color: wheat
+}
+#cancel
+{
+    background: rgb(163, 126, 55);
+    text-shadow: 0px 1px 1px #8a1e54;
+    width: 115px;
+    height: 30px;
+    color: #444444;
+    border-radius: 10px;
+    border: 2px solid rgb(9, 10, 9);
+    margin: 30px -45px 0px 10px;
+    cursor: pointer;
+}
+#cancel:hover
+{
+    background-color: #eb5fdf
+}
+#cancel:active
+{
+    background-color: wheat
+}
+
+
